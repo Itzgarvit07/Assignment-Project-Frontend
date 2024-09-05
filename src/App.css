@@ -1,0 +1,24 @@
+/* Customize Swiper navigation button size */
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40px !important; 
+  height: 40px !important; 
+  border-radius: 50%;
+  border: solid 1px white;
+}
+
+/* Adjust the arrow icon size inside the buttons */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 19px !important; 
+  color: white;
+}
+.swiper-button-prev:hover{
+    cursor: pointer;
+    background-color: #ffe2e2;
+}
+.swiper-button-next:hover{
+    cursor: pointer;
+    background-color: #ffe2e2;
+}
+
